@@ -1,9 +1,9 @@
 (function () {
-    angular.module('ng-reaveler', [])
-    .directive('ng-reavealer', ['$log', function ($log) {
+    angular.module('ng-revealer', [])
+    .directive('ngRevealer', [function () {
 
         var active = false,
-        activeClsName = 'revealed';
+        activeClsName = 'active';
 
         function Revealer (btn, hiddenText) {
             this.btn = btn;
@@ -53,7 +53,7 @@
         return {
             restrict: 'A',
             link: function (scope, element) {
-                $log.info('[reveal] init');
+                console.log('[revealer] init');
 
                 var hidden = angular.element('.hidden-content', element),
                 btn = angular.element('.btn-reveal');
