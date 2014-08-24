@@ -12,7 +12,7 @@ An AngularJS directive that hides and reveals content.
 Clone the repository and include directly into your project. You can also use bower and install as a dependency:
 
 ```
-bower install angular-carousel
+bower install ng-reaveler
 ```
 
 Add the dependency in your Angular's project dependency arguments:
@@ -45,7 +45,7 @@ data-ng-revealer
 ### Html Structure
 
 ```html
-<div class='revealer-container' data-ng-carousel>
+<div class='revealer-container' data-ng-revealer>
 
   <p class='visible'>Visible</p>
   <p class='hidden'>Hidden</p>
