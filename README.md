@@ -25,7 +25,6 @@ var app = angular.module('MyApp', [
 
 ### Dependencies
 
-- jQuery (for transitions)
 - I use Font-Awesome in the example, but this is not included in the project.
 
 Make sure you reference the script in your javascript:
