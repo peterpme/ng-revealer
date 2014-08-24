@@ -1,6 +1,6 @@
 # Angular Revealer
 
-An AngularJS directive that hides and reveals a certain group of content.
+An AngularJS directive that hides and reveals content.
 
 ## Browser Support
 - IE9+ (no transitions)
