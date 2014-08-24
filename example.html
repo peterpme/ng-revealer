@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html ng-app='example'>
+  <head>
+  <title>Angular Revealer Exampler</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <div class='revealer-container' data-ng-revealer>
+    <div>Some Visible Content</div>
+    <div class='hidden'>Hidden Content</div>
+    <a class='btn-reveal'>Reveal More</a>
+  </div>
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.angularjs.org/1.2.21/angular.js"></script>
+<script src='ng-revealer.js'></script>
+
+<script>
+  var app = angular.module('example', ['ng-reaveler']);
+</script>
+</body>
+</html>
