@@ -5,6 +5,16 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <style>
 
+    .hidden-content {
+      display: none;
+    }
+    .active {
+      display: block !important;
+    }
+    .btn-reveal {
+      cursor: pointer;
+    }
+
   </style>
 </head>
 
@@ -12,7 +22,7 @@
 
   <div class='revealer-container' data-ng-revealer>
     <div>Some Visible Content</div>
-    <div class='hidden'>Hidden Content</div>
+    <div class='hidden-content'>Hidden Content</div>
     <a class='btn-reveal'><i class='fa fa-plus'></i> Reveal More</a>
   </div>
 
@@ -21,7 +31,7 @@
 <script src='ng-revealer.js'></script>
 
 <script>
-  var app = angular.module('example', ['ng-reaveler']);
+  var app = angular.module('example', ['ng-revealer']);
 </script>
 </body>
 </html>
