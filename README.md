@@ -48,7 +48,7 @@ data-ng-revealer
 
   <p class='visible'>Visible</p>
   <p class='hidden'>Hidden</p>
-  <a class='btn-reveal'><i class='fa fa-plus'> Reveal</a>
+  <a class='btn-reveal'><i class='fa fa-plus'></i> Reveal More</a>
 
 </div>
 ```
